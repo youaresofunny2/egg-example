@@ -21,7 +21,7 @@ class GoodsController extends Controller {
             
         }catch (error){
             ctx.body = {
-                code:500,
+                code:404,
                 error
             }
         }
